@@ -142,7 +142,7 @@ def id_generator():
 	pwo = PasswordGenerator()
 	pwo.minlen = 15
 	pwo.excludeschars = "^'"
-	return pwo.generate()
+	print (pwo.generate())
 
 def delete():
 	all_tags()
